@@ -1,5 +1,5 @@
 all: dir.c
-	gcc stat.c
+	gcc dir.c
 
 run:
 	./a.out
