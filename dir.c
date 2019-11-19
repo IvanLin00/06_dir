@@ -28,7 +28,7 @@ int main(int argc, char *argv[]){
 		total_size += s.st_size;
 		directory = readdir(stream);
 	}
-	printf("Total size: %d",total_size);
+	printf("Total size: %d\n",total_size);
 	return 0;
 	
 }
